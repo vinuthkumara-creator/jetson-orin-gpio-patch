@@ -15,7 +15,7 @@
             pinctrl-0 = <&jetson_io_pinmux>;
             
             jetson_io_pinmux: exp-header-pinmux {
-		    hdr40-pin7 {
+		    hdr40-pin33 {
 		        nvidia,pins = "soc_gpio21_ph0";
 		        nvidia,tristate = <0x0>;
 		        nvidia,enable-input = <0x1>;
